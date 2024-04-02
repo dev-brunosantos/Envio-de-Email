@@ -12,7 +12,7 @@ const emailConfig = nodemailer.createTransport({
     secure: false,
     auth: {
         user: 'brunosdesenvolvedor@gmail.com',
-        pass: 'lcyx wicd flrp prmh'
+        pass: process.env.PASS
     }
 })
 
